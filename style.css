@@ -342,4 +342,43 @@ footer {
 .article-link article span {
     color: #888;
 }
+@media (max-width: 600px) {
+
+    header {
+        height: auto;
+        min-height: 80px;
+        padding: 18px 6%;
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+    }
+
+    .logo {
+        font-size: 24px;
+    }
+
+    nav {
+        display: flex;
+        gap: 22px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    nav a {
+        font-size: 13px;
+    }
+
+    .hero {
+        padding: 70px 6% 80px;
+    }
+
+    .hero h1 {
+        font-size: 46px;
+        line-height: 1.05;
+        letter-spacing: -2px;
+    }
+
+    .description {
+        font-size: 16px;
+    }
 }
