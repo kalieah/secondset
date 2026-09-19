@@ -104,6 +104,7 @@ button:hover {
     border-top: 1px solid #ddd;
     padding: 100px 8% 120px;
     background: white;
+    margin-top: 60px;
 }
 
 .section-title {
@@ -212,7 +213,7 @@ footer {
     }
 }
 
-```css
+
 /* =========================
    RESEARCH
 ========================= */
@@ -314,7 +315,7 @@ footer {
         grid-template-columns: 1fr;
     }
 }
-```
+
 /* ARTICLE LINKS */
 
 .article-link {
